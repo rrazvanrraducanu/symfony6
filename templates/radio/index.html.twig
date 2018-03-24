@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Copy!{% endblock %}
+
+{% block body %}
+    {{head|raw}}
+
+    {{ form_start(form) }}
+    {{ form_row(form.radio) }}
+    {{ form_end(form) }}
+
+{% endblock %}
+
